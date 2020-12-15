@@ -36,6 +36,7 @@ bananagroup = new Group();
 function draw() {
   background("white");
  
+  camera.y = monkey.y
    backGround.velocityX = -5;
   if (backGround.x < 0) {
     backGround.x = 300;
